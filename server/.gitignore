@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Flask instance folder (contains app.db)
+instance/
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Pipenv
+Pipfile.lock
+
+# curl cookie jar (from manual testing)
+cookies.txt
+
+# pytest cache
+.pytest_cache/
